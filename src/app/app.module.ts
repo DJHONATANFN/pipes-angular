@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { ProductsModule } from './products/products.module';
+import { PipesModule } from './pipes/pipes.module';
 
 // Configuracion de locale en la app
 import localeESPE  from '@angular/common/locales/es-PE';
@@ -23,7 +24,8 @@ registerLocaleData(localeFRCA);
     BrowserAnimationsModule,
     AppRoutingModule,
     SharedModule,
-    ProductsModule
+    ProductsModule,
+    PipesModule
   ],
   providers: [
     {
